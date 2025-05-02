@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin:0;
+  }
+  
+  header {
+  
+  }
+  
+  #logo {
+    width:100px;
+  }
+  
+  
+  
+  @media screen and (width>1000px) {
+    
+    header,main,footer {
+        max-width: 1000px;
+        margin-inline:auto;
+    }
+  
+  
+    #primary-nav ul{
+        display: flex;
+        
+        gap:1rem;
+        list-style-type: none;
+    }
+    
+    #primary-nav li {
+        
+    }
+    
+  
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    }
+  
+    
+  
+    #hero {
+        background-image: url();
+        background-size: cover;
+        height:60vh;
+        padding:1rem;
+        padding-right:50%;
+        margin-bottom: 1rem;
+        color:white;
+    }
+  
+    #hero h2 {
+        color:white;
+    }
+  
+    #hero p {
+        margin-bottom:2rem;
+    }
+  
+    .cta {
+        background-color: pink;
+        padding:1rem 2rem;
+        text-decoration: none;
+        color: black;
+    }
+  
+  
+    #cupcakes-list {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:1rem;
+    }
+  
+    .card img {
+        width:100%;
+    }
+  }
